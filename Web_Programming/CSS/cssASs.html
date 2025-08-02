@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virat Kohli</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: antiquewhite;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1, h2 {
+      text-align: center;
+    }
+
+    img.main-img {
+      display: block;
+      margin: 20px auto;
+      width: 500px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .virat {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .virat img {
+      flex: 1;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    p {
+      max-width: 900px;
+      margin: 0 auto;
+      font-size: 18px;
+      line-height: 1.6;
+      border: 1px,solid;
+    }
+
+    @media (max-width: 768px) {
+      .virat {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .virat img {
+        width: 90%;
+        height: 250px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Virat Kohli</h1>
+
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7WxsxTieX8UfWIUG8aCK-NlPIIHpvv7fqWg&s" alt="Virat Kohli" class="main-img">
+
+  <h2>About</h2>
+  <p>
+    Virat Kohli is an Indian international cricketer and the former captain of the Indian national cricket team.
+    He is a right-handed batsman and an occasional medium-fast bowler. He currently represents Royal Challengers
+    Bengaluru in the IPL and Delhi in domestic cricket.
+  </p>
+
+  <div class="virat">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_W0_e0Qq3tuG9ZCn_D1c3r7ZE45-CN_O4Jw&s" alt="Virat Image 1">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyMk7W1xB-jU6z79XVqOJYKo-ZJKQv1C5NyA&s" alt="Virat Image 2">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy3LXh1JyoHwR7_6g-OEVtpEG01Ad38YOItA&s" alt="Virat Image 3">
+  </div>
+
+</body>
+</html>
